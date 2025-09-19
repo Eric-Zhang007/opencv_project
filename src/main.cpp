@@ -16,7 +16,7 @@ static std::vector<std::vector<Point>> imgprocess(const Mat& img) {
 	GaussianBlur(hsved, gaussianed, Size(5, 5), 1.5);
 	Mat final;
 	Scalar lower_blue(90, 60, 200);
-	Scalar upper_blue(111, 255, 255);
+	Scalar upper_blue(130, 255, 255);
 	inRange(gaussianed, lower_blue, upper_blue, final);
 	Mat kernel = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(3, 3));
 	Mat postprocessed_1, postprocessed;
@@ -92,3 +92,4 @@ int main() {
 	}
 	
 }
+
