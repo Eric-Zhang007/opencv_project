@@ -1,6 +1,8 @@
 # RMVtask 02
 ## Final result showcase
+Origin:
 ![Original Picture](./resources/test_image.jpg)
+Processed:
 ![Processed Picture](./resources/img_result.jpg)
 ## 项目澄清
 上述图片是最终的成果。个人觉得还是不错的。
@@ -18,4 +20,5 @@
 也许这是~~不鲁棒~~？不对的话如果有人看到麻烦**issue**
 遂采取了一些更加科学的筛选方式，如最小面积矩形，找平行，长宽比（在旋转，范围较大），距离和高度之比等筛选方式。
 进而干脆直接合并了一下，就误打误撞来到了2.0
+
 
